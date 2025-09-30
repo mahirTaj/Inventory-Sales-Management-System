@@ -46,20 +46,8 @@ A simple inventory and sales management system with core features like adding pr
 
 ---
 
-## 🛠️ Tech Stack
-- Language: **C / C++** (array-based implementation)  
-- Sorting: **Bubble Sort**  
-- Data: **Arrays for inventory and sales logs**  
 
----
 
-## 📌 Future Enhancements
-- File-based persistence (save/load inventory)  
-- GUI integration  
-- Advanced sorting/searching (Quick Sort, Binary Search)  
 
----
 
-## 📖 License
-This project is open-source and available under the [MIT License](LICENSE).  
 
