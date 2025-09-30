@@ -1,49 +1,65 @@
-# Inventory-Sales-Management-System
+```markdown
+# 📦 Inventory & Sales Management System
 
-Inventory & Sales Management System
+A simple inventory and sales management system with core features like adding products, updating stock, processing sales, generating reports, and undoing transactions.
 
-Add, Update & Delete Product
+---
 
+## 🚀 Features
 
-Add new products with ID, name, price, and quantity.
-Update existing product details like price and quantity.
-Delete products from the inventory array, freeing up space.
+### 🔹 Product Management
+- Add new products with **ID, Name, Price, and Quantity**  
+- Update existing product details (**price and quantity**)  
+- Delete products from the inventory array  
 
+### 🔹 Sales & Logging
+- Process sales by reducing quantity  
+- Maintain a **sales log** with product ID, quantity sold, and date/time  
 
-Sell Product & Maintain Sales Log
+### 🔹 Search & Sort
+- Search products by **ID or Name**  
+- Sort products by **Price or Quantity** using **Bubble Sort**  
 
+### 🔹 Reports & Alerts
+- **Sales Report**: total sales, best-selling products, sales count  
+- **Inventory Report**: all products with current stock and prices  
+- **Low Stock Alert**: automatic alerts when stock is below threshold  
 
-Process product sales by reducing quantity accordingly.
-Log each sale with product ID, quantity sold, and date/time in a sales array.
+### 🔹 Restock & Reorder
+- Identify low-stock products for restocking  
+- Add new stock to replenish inventory  
 
+### 🔹 Undo Transactions
+- Undo the **last sale transaction**  
+- Confirmation prompt before undo  
+- Support for **multiple undos with limits**  
+- Automatically updates reports and alerts  
 
-Search & Sort Products
+---
 
+## 📊 Example Workflows
 
-Search products by ID or name with efficient traversal of arrays.
-Sort products by price or quantity using bubble sort for better report display.
+1. **Add Product** → Enter ID, Name, Price, Quantity  
+2. **Sell Product** → Quantity decreases, sale logged  
+3. **View Reports** → Check total sales and stock levels  
+4. **Undo Sale** → Restore previous stock & update logs  
 
+---
 
-View Sales Report, Inventory Report & Low Stock Alert
+## 🛠️ Tech Stack
+- Language: **C / C++** (array-based implementation)  
+- Sorting: **Bubble Sort**  
+- Data: **Arrays for inventory and sales logs**  
 
+---
 
-Generate sales report showing total sales, best-selling products, and sales count.
-Inventory report lists all current products with their quantities and prices.
-Automatically alert when any product’s quantity falls below a predefined threshold.
+## 📌 Future Enhancements
+- File-based persistence (save/load inventory)  
+- GUI integration  
+- Advanced sorting/searching (Quick Sort, Binary Search)  
 
+---
 
-Restock Notification & Reordering System
-
-Identify products low in stock and mark them for reorder.
-Allow adding restock quantities to replenish inventory.
-
-
-Transaction Undo Feature
-
-
-Undo the last sale transaction by restoring the sold product quantity and updating the sales log accordingly.
-Prompt the user for confirmation before undoing to avoid accidental reversals and ensure inventory consistency.
-Support multiple undos with limits, updating sales reports and low stock alerts after each undo operation.
-
-
-
+## 📖 License
+This project is open-source and available under the [MIT License](LICENSE).  
+```
