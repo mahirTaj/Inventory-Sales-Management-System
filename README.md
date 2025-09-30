@@ -1,4 +1,4 @@
-```markdown
+
 # 📦 Inventory & Sales Management System
 
 A simple inventory and sales management system with core features like adding products, updating stock, processing sales, generating reports, and undoing transactions.
@@ -62,4 +62,4 @@ A simple inventory and sales management system with core features like adding pr
 
 ## 📖 License
 This project is open-source and available under the [MIT License](LICENSE).  
-```
+
